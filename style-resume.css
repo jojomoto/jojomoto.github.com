@@ -1,0 +1,95 @@
+.resume-page {
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+    box-sizing:border-box;
+    background-image:url("chalkboard2.jpg");
+    min-width:1440px;
+    text-align:center;
+    color:#f1f1f1;
+    }
+
+h1,h2,h3,h4,h5,p,li ,button{
+    font-family:'Arial';
+    font-weight:400;
+    margin:10px 0
+    }
+h2 {
+    font-weight:900;
+}
+h3, h4 {
+    font-weight:700;
+}
+h2{
+    text-decoration:underline;
+}
+p,li {
+    font-size:12px;
+}
+header.header-div {
+    letter-spacing:4px;
+    position:absolute!important;
+    }
+
+
+.header-class {
+    position:absolute;
+    max-width:1440px;
+    min-width:1440px;
+    transform:translate(100px,50px);
+    margin-left:40%;
+    margin-bottom:3%;
+    
+}
+.header-div {
+    position:absolute!important;
+    top:50%;
+    left:50%;
+    transform:translate(-257%,75%);
+    padding:12px 24px!important;
+    border:1px solid #f1f1f1!important;
+    color:#f1f1f1;
+    text-align:center!important
+}
+.header-div:hover {
+    background-color:#f1f1f1!important;
+    color:black;
+    opacity:85%;
+    
+}
+
+.resume {
+    height:800px;
+    width:650px;
+    overflow:scroll;
+    position:absolute;
+    
+    padding:20px 20px!important;
+    border:1px solid #f1f1f1!important;
+    color:#f1f1f1!important;
+    text-align:left!important;
+    opacity:25%;
+}
+
+
+p, li {
+    font-size:14px;
+}
+.resume:hover {
+    background-color:#f1f1f1;
+    color:black!important;
+    opacity:0.85;
+}
+
+.my-name {
+    font-family:'Arial';
+    font-size:48px!important;
+    letter-spacing:7px    
+    }
+.page-title {
+    font-family:'Arial';
+    letter-spacing:9px;
+}
